@@ -1,0 +1,36 @@
+
+/* I need to set an overall background color. Google how to make the nav links scroll to the section. Figure out margins and padding for everything. 
+   Correct deploy the module 1 project and link it to the "my work" section (don't forget to resubmit that assingment). Use media screen to make the sizing compatible.
+   Go over the acceptance criteria again to double check everything. Simplify your code. Do a README. Deploy. Triple check it.*/
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.header-base-level {
+    width: 100%;
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header
+nav
+ul
+li {
+    display:inline-block;
+    margin: 15px;
+    color: white;
+    /* why is my list not showing in the right order? check into this on wednesday. */
+}
