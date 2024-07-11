@@ -15,14 +15,16 @@ html {
 
 body {
     height: 100%;
+    background-color: slategray;
 }
 
 .header-base-level {
     width: 100%;
-    background-color: navy;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
+    height: 60px;
 }
 
 header
@@ -33,4 +35,25 @@ li {
     margin: 15px;
     color: white;
     /* why is my list not showing in the right order? check into this on wednesday. */
+}
+
+h1 {
+    font-size: 45px;
+}
+
+a {
+    list-style-type: none;
+    color: white;
+    margin: 15px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.titles-of-sections {
+    font-size: 35px;
+    margin: 5px;
+    padding: 5px;
 }
