@@ -9,7 +9,7 @@ Users can access this site via the link. Once the site has loaded, they can use 
 ## Credits
 
 ## Screenshot
-
+"C:\Users\hcsoc\bootcamp\personal-portfolio\Personal-Portfolio\Portfolio Screenshot.png"
 ## Deployment Link
 
 ## License
