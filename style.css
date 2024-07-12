@@ -37,8 +37,31 @@ li {
     /* why is my list not showing in the right order? check into this on wednesday. */
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 8px;
+    padding: 16px;
+}
+
+.design-within-section {
+    display: flex;
+    margin: 15px;
+    padding: 45px;
+}
+
+.titles-of-sections {
+    font-size: 35px;
+    margin: 10px;
+    padding: 20px;
+    margin-right: 145px;
+}
+
 h1 {
     font-size: 45px;
+    margin: 5px;
+    padding-left: 10px;
 }
 
 a {
@@ -50,10 +73,24 @@ a {
 p {
     color: white;
     font-size: 20px;
+    padding: 0px;
 }
 
-.titles-of-sections {
-    font-size: 35px;
-    margin: 5px;
-    padding: 5px;
+img {
+    height: 250px;
+    width: 315px;
+    rotate: 90deg;
+}
+
+.works-img {
+    rotate: 0deg;
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
 }
